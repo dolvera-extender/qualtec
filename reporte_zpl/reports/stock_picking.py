@@ -6,6 +6,7 @@ _logger = logging.getLogger(__name__)
 
 
 class StockPicking(models.Model):
+    _name = "zpl.report"
     _inherit = "stock.picking"
     
     def send_zpl_report(self):
