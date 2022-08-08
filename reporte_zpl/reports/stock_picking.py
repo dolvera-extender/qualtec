@@ -8,6 +8,7 @@ _logger = logging.getLogger(__name__)
 class StockPicking(models.Model):
     _inherit = "stock.picking"
     
+    
     def send_zpl_report(self):
         _logger.info("si se ejecutaaaa")
         _logger.info(self)
