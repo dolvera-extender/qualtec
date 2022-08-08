@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="stock_form_zpl_report">
+    <record id="stock_form_zpl_report" model="ir.ui.view">
         <field name="name">stock.picking.form.zpl.report</field>
         <field name="model">stock.picking</field>
         <field name="inherit_id" ref="stock.view_picking_form"/>
