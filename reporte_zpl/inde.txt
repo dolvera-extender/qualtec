@@ -1,0 +1,27 @@
+1.- Estructura básica del addon (reportes)
+2.- Estructura básica del reporte.
+    - QWEB
+    - ZPL
+3.- Estructura de la plantilla.
+    - etiquetas
+    - datos
+    - condicionales
+    - Bucles
+4.- Herencias
+5.- Modificaciones directas (back office)
+
+
+Notas:
+
+render online: http://labelary.com/viewer.html
+
+^XA    - Inicia la etiqueta.
+^FOx,y - Indica el origen del bloque o texto, ej ^FO20,50
+^FS    - Comando separador.
+^A     - Formato de texto ej. ^A0N,44,33  44 alto, 33 ancho.
+^FD    - Una cadena de texto o datos.
+^GB    - Dibuja una linea o recuadro, ejemplo: ^GB745,354,10^FS
+^XZ    - Indica fin del bloque.
+
+
+
